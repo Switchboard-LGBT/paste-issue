@@ -10,8 +10,7 @@ jobs:
       - name: Env variables
         run: |
           echo "TWILIO_ACCOUNT_SID=${{ secrets.TWILIO_ACCOUNT_SID }}" >> $GITHUB_ENV
-          echo "TWILIO_API_KEY=${{ secrets.TWILIO_API_KEY }}" >> $GITHUB_ENV
-          echo "TWILIO_API_SECRET=${{ secrets.TWILIO_API_SECRET }}" >> $GITHUB_ENV
+          echo "TWILIO_AUTH_TOKEN=${{ secrets.TWILIO_AUTH_TOKEN }}" >> $GITHUB_ENV
 
       - name: Checkout
         uses: actions/checkout@v4
