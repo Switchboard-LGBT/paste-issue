@@ -1,0 +1,14 @@
+{
+  "extends": ["github>Switchboard-LGBT/renovate-bot"],
+  "ignoreDeps": [
+    "react",
+    "react-dom",
+    "redux",
+    "react-redux",
+    "react-router-dom",
+    "@emotion/css",
+    "@emotion/react",
+    "@emotion/styled",
+    "@material-ui/core"
+  ]
+}
