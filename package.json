@@ -10,10 +10,10 @@
     "react": "17.0.2",
     "react-dom": "17.0.2",
     "prop-types": "^15.7.2",
-    "@twilio-paste/core": "20.7.0"
+    "@twilio-paste/core": "20.8.0"
   },
   "resolutions": {
-    "@twilio-paste/core": "20.7.0"
+    "@twilio-paste/core": "20.8.0"
   },
   "devDependencies": {
     "@twilio/flex-ui": "2.5.1",
